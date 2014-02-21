@@ -1,0 +1,6 @@
+Manifest-Version: 1.0
+OpenIDE-Module: org.carsales.core
+OpenIDE-Module-Layer: org/carsales/core/layer.xml
+OpenIDE-Module-Localizing-Bundle: org/carsales/core/Bundle.properties
+OpenIDE-Module-Specification-Version: 1.0
+

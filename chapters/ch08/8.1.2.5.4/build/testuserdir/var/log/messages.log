@@ -1,0 +1,97 @@
+-------------------------------------------------------------------------------
+>Log Session: Saturday, February 15, 2014 11:33:44 AM CET
+>System Info: 
+  Product Version         = 8.1.2.5.4 201309162201
+  Operating System        = Mac OS X version 10.9.1 running on x86_64
+  Java; VM; Vendor        = 1.7.0_40; Java HotSpot(TM) 64-Bit Server VM 24.0-b56; Oracle Corporation
+  Runtime                 = Java(TM) SE Runtime Environment 1.7.0_40-b43
+  Java Home               = /Library/Java/JavaVirtualMachines/jdk1.7.0_40.jdk/Contents/Home/jre
+  System Locale; Encoding = nl_NL (app); UTF-8
+  Home Directory          = /Users/hermine
+  Current Directory       = /Users/Shared/book/ch08/scenes/8.1.2.5.4
+  User Directory          = /Users/Shared/book/ch08/scenes/8.1.2.5.4/build/testuserdir
+  Cache Directory         = /Users/Shared/book/ch08/scenes/8.1.2.5.4/build/testuserdir/var/cache
+  Installation            = /Users/Shared/book/ch08/scenes/8.1.2.5.4/build/cluster
+                            /Applications/NetBeans/NetBeans 7.4 RC1.app/Contents/Resources/NetBeans/platform
+                            /Applications/NetBeans/NetBeans 7.4 RC1.app/Contents/Resources/NetBeans/platform
+  Boot & Ext. Classpath   = /Library/Java/JavaVirtualMachines/jdk1.7.0_40.jdk/Contents/Home/jre/lib/resources.jar:/Library/Java/JavaVirtualMachines/jdk1.7.0_40.jdk/Contents/Home/jre/lib/rt.jar:/Library/Java/JavaVirtualMachines/jdk1.7.0_40.jdk/Contents/Home/jre/lib/sunrsasign.jar:/Library/Java/JavaVirtualMachines/jdk1.7.0_40.jdk/Contents/Home/jre/lib/jsse.jar:/Library/Java/JavaVirtualMachines/jdk1.7.0_40.jdk/Contents/Home/jre/lib/jce.jar:/Library/Java/JavaVirtualMachines/jdk1.7.0_40.jdk/Contents/Home/jre/lib/charsets.jar:/Library/Java/JavaVirtualMachines/jdk1.7.0_40.jdk/Contents/Home/jre/lib/jfr.jar:/Library/Java/JavaVirtualMachines/jdk1.7.0_40.jdk/Contents/Home/jre/lib/JObjC.jar:/Library/Java/JavaVirtualMachines/jdk1.7.0_40.jdk/Contents/Home/jre/classes:/Library/Java/JavaVirtualMachines/jdk1.7.0_40.jdk/Contents/Home/jre/lib/ext/dnsns.jar:/Library/Java/JavaVirtualMachines/jdk1.7.0_40.jdk/Contents/Home/jre/lib/ext/localedata.jar:/Library/Java/JavaVirtualMachines/jdk1.7.0_40.jdk/Contents/Home/jre/lib/ext/sunec.jar:/Library/Java/JavaVirtualMachines/jdk1.7.0_40.jdk/Contents/Home/jre/lib/ext/sunjce_provider.jar:/Library/Java/JavaVirtualMachines/jdk1.7.0_40.jdk/Contents/Home/jre/lib/ext/sunpkcs11.jar:/Library/Java/JavaVirtualMachines/jdk1.7.0_40.jdk/Contents/Home/jre/lib/ext/zipfs.jar:/System/Library/Java/Extensions/AppleScriptEngine.jar:/System/Library/Java/Extensions/dns_sd.jar:/System/Library/Java/Extensions/j3daudio.jar:/System/Library/Java/Extensions/j3dcore.jar:/System/Library/Java/Extensions/j3dutils.jar:/System/Library/Java/Extensions/jai_codec.jar:/System/Library/Java/Extensions/jai_core.jar:/System/Library/Java/Extensions/mlibwrapper_jai.jar:/System/Library/Java/Extensions/MRJToolkit.jar:/System/Library/Java/Extensions/QTJava.zip:/System/Library/Java/Extensions/vecmath.jar
+  Application Classpath   = /Applications/NetBeans/NetBeans 7.4 RC1.app/Contents/Resources/NetBeans/platform/lib/boot.jar:/Applications/NetBeans/NetBeans 7.4 RC1.app/Contents/Resources/NetBeans/platform/lib/org-openide-modules.jar:/Applications/NetBeans/NetBeans 7.4 RC1.app/Contents/Resources/NetBeans/platform/lib/org-openide-util-lookup.jar:/Applications/NetBeans/NetBeans 7.4 RC1.app/Contents/Resources/NetBeans/platform/lib/org-openide-util.jar:/Applications/NetBeans/NetBeans 7.4 RC1.app/Contents/Resources/NetBeans/platform/lib/locale/boot_ja.jar:/Applications/NetBeans/NetBeans 7.4 RC1.app/Contents/Resources/NetBeans/platform/lib/locale/boot_pt_BR.jar:/Applications/NetBeans/NetBeans 7.4 RC1.app/Contents/Resources/NetBeans/platform/lib/locale/boot_ru.jar:/Applications/NetBeans/NetBeans 7.4 RC1.app/Contents/Resources/NetBeans/platform/lib/locale/boot_zh_CN.jar:/Applications/NetBeans/NetBeans 7.4 RC1.app/Contents/Resources/NetBeans/platform/lib/locale/org-openide-modules_ja.jar:/Applications/NetBeans/NetBeans 7.4 RC1.app/Contents/Resources/NetBeans/platform/lib/locale/org-openide-modules_pt_BR.jar:/Applications/NetBeans/NetBeans 7.4 RC1.app/Contents/Resources/NetBeans/platform/lib/locale/org-openide-modules_ru.jar:/Applications/NetBeans/NetBeans 7.4 RC1.app/Contents/Resources/NetBeans/platform/lib/locale/org-openide-modules_zh_CN.jar:/Applications/NetBeans/NetBeans 7.4 RC1.app/Contents/Resources/NetBeans/platform/lib/locale/org-openide-util-lookup_ja.jar:/Applications/NetBeans/NetBeans 7.4 RC1.app/Contents/Resources/NetBeans/platform/lib/locale/org-openide-util-lookup_pt_BR.jar:/Applications/NetBeans/NetBeans 7.4 RC1.app/Contents/Resources/NetBeans/platform/lib/locale/org-openide-util-lookup_ru.jar:/Applications/NetBeans/NetBeans 7.4 RC1.app/Contents/Resources/NetBeans/platform/lib/locale/org-openide-util-lookup_zh_CN.jar:/Applications/NetBeans/NetBeans 7.4 RC1.app/Contents/Resources/NetBeans/platform/lib/locale/org-openide-util_ja.jar:/Applications/NetBeans/NetBeans 7.4 RC1.app/Contents/Resources/NetBeans/platform/lib/locale/org-openide-util_pt_BR.jar:/Applications/NetBeans/NetBeans 7.4 RC1.app/Contents/Resources/NetBeans/platform/lib/locale/org-openide-util_ru.jar:/Applications/NetBeans/NetBeans 7.4 RC1.app/Contents/Resources/NetBeans/platform/lib/locale/org-openide-util_zh_CN.jar:/Library/Java/JavaVirtualMachines/jdk1.7.0_40.jdk/Contents/Home/lib/dt.jar:/Library/Java/JavaVirtualMachines/jdk1.7.0_40.jdk/Contents/Home/lib/tools.jar
+  Startup Classpath       = /Applications/NetBeans/NetBeans 7.4 RC1.app/Contents/Resources/NetBeans/platform/core/core.jar:/Applications/NetBeans/NetBeans 7.4 RC1.app/Contents/Resources/NetBeans/platform/core/org-openide-filesystems.jar:/Applications/NetBeans/NetBeans 7.4 RC1.app/Contents/Resources/NetBeans/platform/core/locale/core_ja.jar:/Applications/NetBeans/NetBeans 7.4 RC1.app/Contents/Resources/NetBeans/platform/core/locale/core_pt_BR.jar:/Applications/NetBeans/NetBeans 7.4 RC1.app/Contents/Resources/NetBeans/platform/core/locale/core_ru.jar:/Applications/NetBeans/NetBeans 7.4 RC1.app/Contents/Resources/NetBeans/platform/core/locale/core_zh_CN.jar:/Applications/NetBeans/NetBeans 7.4 RC1.app/Contents/Resources/NetBeans/platform/core/locale/org-openide-filesystems_ja.jar:/Applications/NetBeans/NetBeans 7.4 RC1.app/Contents/Resources/NetBeans/platform/core/locale/org-openide-filesystems_pt_BR.jar:/Applications/NetBeans/NetBeans 7.4 RC1.app/Contents/Resources/NetBeans/platform/core/locale/org-openide-filesystems_ru.jar:/Applications/NetBeans/NetBeans 7.4 RC1.app/Contents/Resources/NetBeans/platform/core/locale/org-openide-filesystems_zh_CN.jar:/Users/Shared/book/ch08/scenes/8.1.2.5.4/build/cluster/core/locale/core_app.jar
+-------------------------------------------------------------------------------
+INFO [org.netbeans.core.startup.NbEvents]: Turning on modules:
+	org.openide.util.lookup [8.22.1 201309162201]
+	org.openide.util [8.33.1 201309162201]
+	org.openide.modules [7.39.1 201309162201]
+	org.openide.filesystems [8.8.1 201309162201]
+	org.netbeans.api.annotations.common/1 [1.21.1 201309162201]
+	org.openide.awt [7.59.1 201309162201]
+	org.netbeans.api.progress/1 [1.35.1 201309162201]
+	org.openide.dialogs [7.32.1 201309162201]
+	org.openide.nodes [7.36.1 201309162201]
+	org.openide.windows [6.65.1 201309162201]
+	org.netbeans.modules.editor.mimelookup/1 [1.33.1 201309162201]
+	org.openide.text [6.58.1 201309162201]
+	org.netbeans.swing.tabcontrol [1.46.1 201309162201]
+	org.netbeans.swing.outline [1.27.1 201309162201]
+	org.openide.explorer [6.53.1 201309162201]
+	org.openide.actions [6.32.1 201309162201]
+	org.netbeans.modules.queries/1 [1.36.1 201309162201]
+	org.openide.loaders [7.51.1 201309162201]
+	org.openide.io [1.42.1 201309162201]
+	org.netbeans.swing.plaf [1.34.1 201309162201]
+	org.netbeans.spi.quicksearch [1.20.1 201309162201]
+	org.netbeans.bootstrap/1 [2.63.1 201309162201]
+	org.netbeans.core.startup/1 [1.51.1 201309162201]
+	org.netbeans.modules.settings/1 [1.42.1 201309162201]
+	org.netbeans.modules.sampler [1.7.1 201309162201]
+	org.netbeans.modules.progress.ui [1.26.1 201309162201]
+	org.netbeans.modules.print [7.19.1 201309162201]
+	org.netbeans.modules.keyring [1.17.1 201309162201]
+	org.netbeans.core/2 [3.43.1 201309162201]
+	org.netbeans.modules.options.api/1 [1.36.1 201309162201]
+	org.netbeans.modules.options.keymap [1.28.1 201309162201]
+	org.netbeans.modules.masterfs/2 [2.44.1 201309162201]
+	org.netbeans.libs.jna/1 [1.31.1 201309162201]
+	org.netbeans.modules.masterfs.macosx [1.7.1 201309162201]
+	org.netbeans.modules.keyring.fallback [1.1.1 201309162201]
+	org.netbeans.modules.keyring.impl [1.14.1 201309162201]
+	org.netbeans.modules.editor.mimelookup.impl/1 [1.24.1 201309162201]
+	org.netbeans.core.windows/2 [2.66.1 201309162201]
+	org.netbeans.modules.applemenu/1 [1.30.1 201309162201]
+	org.netbeans.libs.osgi [1.15.1 201309162201]
+	org.netbeans.libs.jna.platform/1 [1.1.1 201309162201]
+	org.netbeans.libs.felix [2.9.1 201309162201]
+	org.netbeans.core.ui/1 [1.38.1 201309162201]
+	org.netbeans.core.output2/1 [1.34.1 201309162201]
+	org.netbeans.core.network [1.1.1 201309162201]
+	org.netbeans.core.netigso [1.23.1 201309162201]
+	org.netbeans.core.nativeaccess/1 [1.23.1 201309162201]
+	org.netbeans.core.multitabs [1.3.3.1 1 201309162201]
+	org.netbeans.core.io.ui/1 [1.23.1 201309162201]
+	org.netbeans.api.visual [2.40.1 201309162201]
+	org.carsales.carviewer [1.0 140215]
+INFO [org.netbeans.core.network.proxy.NetworkProxyReloader]: System network proxy resolver: Mac
+WARNING [org.netbeans.core.network.proxy.NetworkProxyReloader]: System network proxy reloading failed! Trying fallback resolver.
+INFO [org.netbeans.core.network.proxy.fallback.FallbackNetworkProxy]: Fallback system proxy resolver: no http_proxy variable found
+INFO [org.netbeans.core.network.proxy.NetworkProxyReloader]: System network proxy reloading succeeded. Fallback provider was successful.
+INFO [org.netbeans.core.network.proxy.NetworkProxyReloader]: System network proxy - mode: direct
+INFO [org.netbeans.core.network.proxy.NetworkProxyReloader]: System network proxy: falled to default (corect if direct mode went before)
+INFO [org.netbeans.ui.metrics.laf]: USG_LOOK_AND_FEEL
+Diagnostic information
+Input arguments:
+	-Djdk.home=/Library/Java/JavaVirtualMachines/jdk1.7.0_40.jdk/Contents/Home
+	-Dnetbeans.dirs=/Users/Shared/book/ch08/scenes/8.1.2.5.4/build/cluster:/Applications/NetBeans/NetBeans 7.4 RC1.app/Contents/Resources/NetBeans/platform
+	-Dnetbeans.home=/Applications/NetBeans/NetBeans 7.4 RC1.app/Contents/Resources/NetBeans/platform
+	-Dnetbeans.logger.console=true
+	-ea
+	-XX:+HeapDumpOnOutOfMemoryError
+	-XX:HeapDumpPath=/Users/Shared/book/ch08/scenes/8.1.2.5.4/build/testuserdir/var/log/heapdump.hprof
+Compiler: HotSpot 64-Bit Tiered Compilers
+Heap memory usage: initial 128,0MB maximum 1820,5MB
+Non heap memory usage: initial 23,4MB maximum 130,0MB
+Garbage collector: PS Scavenge (Collections=3 Total time spent=0s)
+Garbage collector: PS MarkSweep (Collections=0 Total time spent=0s)
+Classes: loaded=4473 total loaded=4473 unloaded 0
+INFO [org.netbeans.core.ui.warmup.DiagnosticTask]: Total memory 8.589.934.592
+INFO [null]: Total physical memory 8.589.934.592
+WARNING [org.netbeans.TopSecurityManager]: use of system property netbeans.home has been obsoleted in favor of InstalledFileLocator/Places at org.netbeans.Clusters.relativeDirsWithHome(Clusters.java:137)

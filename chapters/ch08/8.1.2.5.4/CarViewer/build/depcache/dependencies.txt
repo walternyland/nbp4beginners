@@ -1,0 +1,16 @@
+||:org.carsales.carviewer.Bundle
+java.lang.Object
+org.carsales.carviewer.Bundle
+org.openide.util.NbBundle
+||:org.carsales.carviewer.CarViewerTopComponent
+org.netbeans.api.visual.action.ActionFactory
+org.netbeans.api.visual.vmd.VMDGraphScene
+javax.swing.JScrollPane
+org.carsales.carviewer.CarViewerTopComponent
+org.netbeans.api.visual.action.WidgetAction$Chain
+org.netbeans.api.visual.action.WidgetAction
+java.awt.BorderLayout
+org.openide.windows.TopComponent
+org.netbeans.api.visual.vmd.VMDNodeWidget
+org.netbeans.api.visual.vmd.VMDPinWidget
+org.openide.windows.TopComponent$Description

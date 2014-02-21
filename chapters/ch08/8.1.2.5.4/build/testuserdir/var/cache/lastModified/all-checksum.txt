@@ -1,0 +1,7 @@
+/Applications/NetBeans/NetBeans 7.4 RC1.app/Contents/Resources/NetBeans/platform=1379369672000
+cluster./Users/Shared/book/ch08/scenes/8.1.2.5.4/build/cluster=1392460423000
+cluster./Applications/NetBeans/NetBeans 7.4 RC1.app/Contents/Resources/NetBeans/platform=1379369672000
+user=1392460423000
+crc=7
+locale=nl_NL
+branding=app

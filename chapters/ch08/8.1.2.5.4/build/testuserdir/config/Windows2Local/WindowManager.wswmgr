@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<windowmanager version="2.1">
+    <main-window>
+  <joined-properties
+   x="933"
+   y="243"
+   width="378"
+   height="318"
+   relative-x="0.0"
+   relative-y="0.0"
+   relative-width="0.0"
+   relative-height="0.0"
+   centered-horizontally="false"
+   centered-vertically="false"
+   maximize-if-width-below="0"
+   maximize-if-height-below="0"
+   frame-state="0"
+/>
+  <separated-properties
+   x="256"
+   y="133"
+   width="2048"
+   height="106"
+   relative-x="0.0"
+   relative-y="0.0"
+   relative-width="0.0"
+   relative-height="0.0"
+   centered-horizontally="false"
+   centered-vertically="false"
+   frame-state="0"
+/>
+  </main-window>
+    <editor-area state="joined" frame-state="0">
+  <constraints>
+  <path orientation="horizontal" number="60" weight="0.7" />
+  <path orientation="vertical" number="40" weight="0.7" />
+  <path orientation="horizontal" number="40" weight="0.7" />
+  <path orientation="vertical" number="40" weight="0.5" />
+  </constraints>
+  <bounds x="844" y="320" width="1075" height="587" />
+    </editor-area>
+    <screen width="2560" height="1440"/>
+    <active-mode name="editor"/>
+    <toolbar configuration="Standard" preferred-icon-size="24"/>
+    <tc-list>
+  <tc-id id="CarViewerTopComponent"/>
+    </tc-list>
+</windowmanager>

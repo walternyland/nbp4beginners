@@ -1,0 +1,5 @@
+Manifest-Version: 1.0
+OpenIDE-Module: org.carsales.carviewer
+OpenIDE-Module-Localizing-Bundle: org/carsales/carviewer/Bundle.properties
+OpenIDE-Module-Specification-Version: 1.0
+

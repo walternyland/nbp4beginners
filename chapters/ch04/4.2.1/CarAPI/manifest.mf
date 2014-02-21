@@ -1,0 +1,5 @@
+Manifest-Version: 1.0
+OpenIDE-Module: org.car.api
+OpenIDE-Module-Localizing-Bundle: org/car/api/Bundle.properties
+OpenIDE-Module-Specification-Version: 1.0
+
