@@ -1,7 +1,8 @@
-package org.carsales.project;
+package org.carsales.project.nodes;
 import java.util.ArrayList;
 import java.util.List;
 import javax.swing.event.ChangeListener;
+import org.carsales.project.CarProject;
 import org.netbeans.api.project.Project;
 import org.netbeans.spi.project.ui.support.NodeFactory;
 import org.netbeans.spi.project.ui.support.NodeList;

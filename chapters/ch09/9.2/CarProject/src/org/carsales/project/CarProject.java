@@ -1,4 +1,5 @@
 package org.carsales.project;
+import org.carsales.project.customizer.CarCustomizerProvider;
 import java.awt.Image;
 import java.beans.PropertyChangeListener;
 import javax.swing.Action;

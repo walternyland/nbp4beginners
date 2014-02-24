@@ -1,4 +1,4 @@
-package org.carsales.project;
+package org.carsales.project.customizer;
 import javax.swing.JComponent;
 import javax.swing.JPanel;
 import org.netbeans.spi.project.ui.support.ProjectCustomizer;
