@@ -8,6 +8,7 @@ import javax.swing.ImageIcon;
 import org.netbeans.api.annotations.common.StaticResource;
 import org.netbeans.api.project.Project;
 import org.netbeans.api.project.ProjectInformation;
+import org.netbeans.spi.project.support.LookupProviderSupport;
 import org.netbeans.spi.project.ui.LogicalViewProvider;
 import org.netbeans.spi.project.ui.support.CommonProjectActions;
 import org.netbeans.spi.project.ui.support.NodeFactorySupport;
@@ -43,7 +44,9 @@ public class CarProject implements Project {
                 new CarCustomizerProvider(this)
             });
         }
-        return lkp;
+        return LookupProviderSupport.createCompositeLookup(
+                lkp, 
+                "Projects/org-carsales-project/Lookup");
     }
     class CarProjectLogicalView implements LogicalViewProvider {
         @StaticResource()
