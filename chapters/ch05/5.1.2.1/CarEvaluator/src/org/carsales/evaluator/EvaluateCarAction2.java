@@ -1,5 +1,6 @@
 package org.carsales.evaluator;
 import org.carsales.api.Car;
+import org.carsales.api.Part;
 import org.openide.awt.ActionID;
 import org.openide.awt.ActionReference;
 import org.openide.awt.ActionRegistration;
@@ -12,25 +13,20 @@ import org.openide.util.actions.CookieAction;
 @ActionRegistration(displayName = "not-used", lazy = false)
 @ActionReference(path = "Menu/Car", position = 20)
 public final class EvaluateCarAction2 extends CookieAction {
-    private Car context;
-    @Messages("CTL_EvaluateCar2=Evaluate Car 2")
+    @Messages("CTL_EvaluateCar2=Evaluate Item")
     public EvaluateCarAction2() {
         setEnabled(false);
     }
     @Override
     protected void performAction(Node[] nodes) {
-        StatusDisplayer.getDefault().setStatusText(context.getBrand());
-    }
-    @Override
-    protected boolean enable(Node[] activatedNodes) {
-        if (activatedNodes.length > 0) {
-            Car car = activatedNodes[0].getLookup().lookup(Car.class);
-            if (car != null && car.getBrand().equals("Honda")) {
-                context = car;
-                return true;
-            }
+        Car car = nodes[0].getLookup().lookup(Car.class);
+        if (car != null) {
+            StatusDisplayer.getDefault().setStatusText(car.getBrand());
         }
-        return false;
+        Part part = nodes[0].getLookup().lookup(Part.class);
+        if (part != null) {
+            StatusDisplayer.getDefault().setStatusText(part.getName());
+        }
     }
     @Override
     protected int mode() {
@@ -38,7 +34,7 @@ public final class EvaluateCarAction2 extends CookieAction {
     }
     @Override
     protected Class<?>[] cookieClasses() {
-        return new Class[]{Car.class};
+        return new Class[]{Car.class,Part.class};
     }
     @Override
     public String getName() {

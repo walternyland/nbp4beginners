@@ -24,7 +24,7 @@ public class EvaluateCarAction1 extends AbstractAction
     public EvaluateCarAction1() {
         this(Utilities.actionsGlobalContext());
     }
-    @Messages("CTL_EvaluateCar1=Evaluate Car 1")
+    @Messages("CTL_EvaluateCar1=Evaluate Car")
     public EvaluateCarAction1(Lookup lkp) {
         super(Bundle.CTL_EvaluateCar1());
         this.lkp = lkp;
