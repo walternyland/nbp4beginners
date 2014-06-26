@@ -1,0 +1,5 @@
+Manifest-Version: 1.0
+OpenIDE-Module: org.carsales.droptarget1
+OpenIDE-Module-Localizing-Bundle: org/carsales/droptarget1/Bundle.properties
+OpenIDE-Module-Specification-Version: 1.0
+

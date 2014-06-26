@@ -1,4 +1,4 @@
-package org.carsales.viewer;
+package org.carsales.droptarget1;
 import java.awt.FlowLayout;
 import java.awt.datatransfer.UnsupportedFlavorException;
 import java.awt.dnd.DnDConstants;
