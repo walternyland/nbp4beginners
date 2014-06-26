@@ -11,6 +11,8 @@ import org.netbeans.core.spi.multiview.MultiViewElementCallback;
 import org.openide.awt.UndoRedo;
 import org.openide.util.Lookup;
 import org.openide.util.NbBundle.Messages;
+import org.openide.util.lookup.AbstractLookup;
+import org.openide.util.lookup.Lookups;
 import org.openide.windows.TopComponent;
 
 @MultiViewElement.Registration(
@@ -39,10 +41,10 @@ public class CarMultiView1 extends JPanel implements MultiViewElement {
     public Action[] getActions() {
         return null;
     }
-    @Override
-    public Lookup getLookup() {
-        return Lookup.EMPTY;
-    }
+@Override
+public Lookup getLookup() {
+    return Lookups.singleton(car);
+}
     @Override public void componentOpened() {}
     @Override public void componentClosed() {}
     @Override public void componentShowing() {}

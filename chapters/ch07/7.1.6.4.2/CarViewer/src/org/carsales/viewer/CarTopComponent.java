@@ -7,7 +7,6 @@ import org.openide.explorer.ExplorerManager;
 import org.openide.explorer.ExplorerUtils;
 import org.openide.explorer.view.BeanTreeView;
 //import org.openide.explorer.view.IconView;
-import org.openide.nodes.AbstractNode;
 import org.openide.nodes.Children;
 import org.openide.nodes.Node;
 import org.openide.util.Exceptions;
@@ -30,7 +29,8 @@ public class CarTopComponent extends TopComponent implements ExplorerManager.Pro
     private final ExplorerManager em = new ExplorerManager();
 
     public CarTopComponent() {
-        setName(Bundle.CTL_CarViewer());
+        setName("CarViewerTopComponent");
+        setDisplayName(Bundle.CTL_CarViewer());
         setToolTipText(Bundle.HINT_CarViewer());
         setLayout(new BorderLayout());
         add(new BeanTreeView(), BorderLayout.CENTER);

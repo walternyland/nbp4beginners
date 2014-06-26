@@ -10,16 +10,7 @@ import org.netbeans.core.spi.multiview.MultiViewElement;
 import org.netbeans.core.spi.multiview.MultiViewElementCallback;
 import org.openide.awt.UndoRedo;
 import org.openide.util.Lookup;
-import org.openide.util.NbBundle.Messages;
-import org.openide.windows.TopComponent;
 
-@MultiViewElement.Registration(
-        displayName = "#LBL_CarMultiView2",
-        mimeType = "application/x-carnode",
-        persistenceType = TopComponent.PERSISTENCE_ONLY_OPENED,
-        preferredID = "CarMultiView2",
-        position = 10)
-@Messages("LBL_CarMultiView2=Visual 2")
 public class CarMultiView2 extends JPanel implements MultiViewElement {
     Car car;
     public CarMultiView2(Lookup lookup) {

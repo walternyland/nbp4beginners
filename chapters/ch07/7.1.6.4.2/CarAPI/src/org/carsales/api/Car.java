@@ -2,10 +2,11 @@ package org.carsales.api;
 
 import java.beans.PropertyChangeListener;
 import java.beans.PropertyChangeSupport;
+import java.io.Serializable;
 import org.netbeans.api.settings.ConvertAsJavaBean;
 
 @ConvertAsJavaBean()
-public class Car {
+public class Car implements Serializable {
     String brand;
     private final PropertyChangeSupport propertyChangeSupport;
     public Car() {
