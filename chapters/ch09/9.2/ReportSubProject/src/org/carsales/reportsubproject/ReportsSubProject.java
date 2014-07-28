@@ -1,11 +1,9 @@
-package org.carsales.project;
-import org.carsales.project.customizer.CarCustomizerProvider;
+package org.carsales.reportsubproject;
 import java.awt.Image;
 import java.beans.PropertyChangeListener;
 import javax.swing.Action;
 import javax.swing.Icon;
 import javax.swing.ImageIcon;
-import org.carsales.reportsubproject.api.ReportsSubprojectProvider;
 import org.netbeans.api.annotations.common.StaticResource;
 import org.netbeans.api.project.Project;
 import org.netbeans.api.project.ProjectInformation;
@@ -25,10 +23,10 @@ import org.openide.util.ImageUtilities;
 import org.openide.util.Lookup;
 import org.openide.util.lookup.Lookups;
 import org.openide.util.lookup.ProxyLookup;
-public class CarProject implements Project {
+public class ReportsSubProject implements Project {
     private final FileObject projectDir;
     private Lookup lkp;
-    CarProject(FileObject dir) {
+    ReportsSubProject(FileObject dir) {
         this.projectDir = dir;
     }
     @Override
@@ -41,20 +39,17 @@ public class CarProject implements Project {
             lkp = Lookups.fixed(new Object[]{
                 this,
                 new Info(),
-                new CarProjectLogicalView(this),
-                new CarCustomizerProvider(this),
-                new ReportsSubprojectProvider(this)
             });
         }
         return LookupProviderSupport.createCompositeLookup(
                 lkp, 
-                "Projects/org-carsales-project/Lookup");
+                "Projects/org-carsales-reportsubproject/Lookup");
     }
     class CarProjectLogicalView implements LogicalViewProvider {
         @StaticResource()
-        public static final String CAR_ICON = "org/carsales/project/icon.png";
-        private final CarProject project;
-        public CarProjectLogicalView(CarProject project) {
+        public static final String SUB_ICON = "org/carsales/reportsubproject/sub-icon.png";
+        private final ReportsSubProject project;
+        public CarProjectLogicalView(ReportsSubProject project) {
             this.project = project;
         }
         @Override
@@ -74,13 +69,13 @@ public class CarProject implements Project {
             }
         }
         private final class ProjectNode extends FilterNode {
-            final CarProject project;
-            public ProjectNode(Node node, CarProject project)
+            final ReportsSubProject project;
+            public ProjectNode(Node node, ReportsSubProject project)
                     throws DataObjectNotFoundException {
                 super(node,
                         NodeFactorySupport.createCompositeChildren(
                                 project,
-                                "Projects/org-carsales-project/Nodes"),
+                                "Projects/org-carsales-reportsubproject/Nodes"),
                         //new FilterNode.Children(node),
                         new ProxyLookup(
                                 new Lookup[]{
@@ -101,7 +96,7 @@ public class CarProject implements Project {
             }
             @Override
             public Image getIcon(int type) {
-                return ImageUtilities.loadImage(CAR_ICON);
+                return ImageUtilities.loadImage(SUB_ICON);
             }
             @Override
             public Image getOpenedIcon(int type) {
@@ -120,10 +115,10 @@ public class CarProject implements Project {
     }
     private final class Info implements ProjectInformation {
         @StaticResource()
-        public static final String CAR_ICON = "org/carsales/project/icon.png";
+        public static final String SUB_ICON = "org/carsales/reportsubproject/sub-icon.png";
         @Override
         public Icon getIcon() {
-            return new ImageIcon(ImageUtilities.loadImage(CAR_ICON));
+            return new ImageIcon(ImageUtilities.loadImage(SUB_ICON));
         }
         @Override
         public String getName() {
@@ -143,7 +138,7 @@ public class CarProject implements Project {
         }
         @Override
         public Project getProject() {
-            return CarProject.this;
+            return ReportsSubProject.this;
         }
     }
 }
