@@ -14,7 +14,7 @@ import org.openide.WizardDescriptor;
 import org.openide.util.NbBundle.Messages;
 
 // TODO define position attribute
-@TemplateRegistration(folder = "Other", iconBase = "org/carsales/wizards/car/icon.png", displayName = "#CarWizardIterator_displayName", description = "car.html")
+@TemplateRegistration(folder = "Other", requireProject = false, iconBase = "org/carsales/wizards/car/icon.png", displayName = "#CarWizardIterator_displayName", description = "car.html")
 @Messages("CarWizardIterator_displayName=Car")
 public final class CarWizardIterator implements WizardDescriptor.InstantiatingIterator<WizardDescriptor> {
 
