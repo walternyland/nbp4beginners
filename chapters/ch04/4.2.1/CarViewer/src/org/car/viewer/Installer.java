@@ -3,10 +3,10 @@ package org.car.viewer;
 import java.util.Collection;
 import javax.swing.JOptionPane;
 import org.car.api.CarValidator;
-import org.openide.modules.OnStart;
 import org.openide.util.Lookup;
+import org.openide.windows.OnShowing;
 
-@OnStart
+@OnShowing
 public class Installer implements Runnable {
 
     @Override
